@@ -1,3 +1,65 @@
+<!DOCTYPE html>
 <html>
-  <body></body>
+  <head>
+    <meta charset="utf-8">
+    <header>
+      <h1>형태 3 | 2017년 7월 01 ~ 2017년 01년 10일 경보 보고서</h1>
+    </header>
+    <link rel="stylesheet" type="text/css" href="http://localhost/style.css">
+  </head>
+
+  <body>
+    <div> 총건수 : 11048건</div>
+    <hr>
+    <script type="text/javascript">
+      var alarmData = [[1, '2015-07-01 00:11:00', 'LU1-1',
+                      '통신에러', '해제', '데이터 취득 오류',
+                      '2015-07-02 02:00:00', '2015-07-02 02:30:00'],
+                      [2, '2015-07-01 00:11:00', 'LU1-2',
+                      '통신에러', '해제', '데이터 취득 오류',
+                      '2015-07-02 02:00:00', '2015-07-02 02:30:00']];
+      var x = alarmData.length;
+      var y = alarmData[0].length;
+      var num = 0;
+      document.write("행의 크기는 " + alarmData.length + " 입니다.<br>");
+      document.write("열의 크기는 " + alarmData[0].length + " 입니다.");
+      // document.write("<table>");
+      // for (var i = 0; i < x; i++) {
+      //   document.write("<tr>");
+      //   for (var j = 0; j < y; j++) {
+      //     document.write("<td>" + alarmData[i, j] + "</td>");
+      //   }
+      // }
+      // document.write("</tr>");
+      // }
+      // document.write("</table>");
+    </script>
+    <!-- <tr>
+        <script>
+        // 표의 헤더를 출력한다.
+        var titleArray = ["No", "발생시간", "발생위치", "경보종류", "경보상태",
+                         "경보내용", "확인시간", "해제시간"];
+        i = 0;
+        while (i < titleArray.length) {
+          document.write("<th>" + titleArray[i] + "</th>");
+          i++;
+        }
+        </script>
+      </tr>
+      <tr>
+      <script>
+        // 표의 내용을 출력한다.
+        j = 0;
+        for (j < alarmDataArray.length){
+          for (var value of alarmDataArray[j].values()) {
+            document.write("<td>" + value + "</td>");
+          }
+        }
+        </script>
+      </tr>
+      <tr>
+        <td>LU1-2</td>
+      </tr> -->
+    </table>
+  </body>
 </html>
