@@ -1,8 +1,10 @@
-table {
-  width : 100% auto;
+approval {
+  width : 10% auto;
   border: 1px solid #444444;
-}
+  margin-right: 0;
 
+}
 td {
-  text-align: center;
+    text-align: center;
+    border: 1px solid #444444;
 }
